@@ -1,5 +1,11 @@
 # Data Science, Stroke Prediction
 
+## Motivation
+The endgoal for this project is to answer the following questions:
+
+1. Could a relatively accurate model be developed for predicting stroke probability?
+2. What are the most important factors in predicting the above probability?
+
 ## Project Overview
 - The objective is to predict the likelihood of patients getting strokes based on input features such as age, gender, bmi, ...
 - Dataset was attained from https://www.kaggle.com/fedesoriano/stroke-prediction-dataset
@@ -81,3 +87,8 @@ Below you can see the confusion matrix for both the training and test sets as we
 ![alt_text](https://github.com/Thraship/stroke_prediction/blob/master/plots/8-test_confusionmatrix.png "test confusion matrix")
 ![alt_text](https://github.com/Thraship/stroke_prediction/blob/master/plots/9-train_confusionmatrix.png "training confusion matrix")
 
+## Feature Importance
+
+Below you can see the importance of each feature in predicting the probebility of getting stroke in our model:
+
+![alt_text](https://github.com/Thraship/stroke_prediction/blob/master/plots/10-featureimportance.png "feature importance")
