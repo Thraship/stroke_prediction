@@ -89,6 +89,6 @@ Below you can see the confusion matrix for both the training and test sets as we
 
 ## Feature Importance
 
-Below you can see the importance of each feature in predicting the probebility of getting stroke in our model:
+Below you can see the importance of each feature in predicting the probability of getting stroke in our model. The top 3 features in order are age, average glucose level, and bmi.
 
 ![alt_text](https://github.com/Thraship/stroke_prediction/blob/master/plots/10-featureimportance.png "feature importance")
