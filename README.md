@@ -56,7 +56,7 @@ Below is the correlation heatmap of the numerical features and response variable
         - work_type: there are instances of folks with all different types of occupations
         - Residence_type: good proportion of Urban & Rural instances are present
         - smoking_status: there are plenty instances with different smoking statuses
-        - 
+        
 Below are the value counts plots for categorical features:
 
 ![alt_text](https://github.com/Thraship/stroke_prediction/blob/master/plots/3-gender.png "gender value counts")
