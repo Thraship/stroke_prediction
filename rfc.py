@@ -5,14 +5,13 @@ Created on Mon Mar 15 21:25:08 2021
 @author: Amir Ostad
 """
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.model_selection import train_test_split
 from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import confusion_matrix, classification_report
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-def rfc(X, y):
+def rfc(X_train, X_test, y_train, y_test):
     """
     Takes features database X and response data series y.
     Fits an optimized random forest classfier, plots confusion matrices,
@@ -22,8 +21,8 @@ def rfc(X, y):
     """
     print(20 * "*" + " Random forest classifier modeling initiated!")
     
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2,
-                                                        random_state=23)
+    # X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2,
+    #                                                     random_state=23)
     # # with a single randomeforest:
     # rf = RandomForestClassifier()
     # print("rf = RandomForestClassifier() done!")
@@ -76,4 +75,4 @@ def rfc(X, y):
     # print("Here's the test set classification report:\n",
     #       classification_report(y_test, y_test_hat))
     
-    return rf, X_train, X_test, y_train, y_test
+    return rf
