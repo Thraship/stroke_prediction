@@ -7,7 +7,7 @@ The endgoal for this project is to answer the following questions:
 2. What are the most important factors in predicting the above probability?
 
 ## Project Overview
-- The objective is to predict the likelihood of patients getting strokes based on input features such as age, gender, bmi, ...
+- The objective is to predict if a patient will get a stroke based on input features such as age, gender, bmi, ...
 - Dataset was attained from https://www.kaggle.com/fedesoriano/stroke-prediction-dataset
 - Cleaned data from over 5000 patients
 - Created and optimized a Random Forest Classification model by using GridSearchCV to reach 94.4% accuracy to predict stroke probability
